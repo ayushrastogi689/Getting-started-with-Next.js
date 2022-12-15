@@ -1,6 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
+
+// Link component help us to create full navigation system (Routing system)
 import Link from "next/link"
+
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
