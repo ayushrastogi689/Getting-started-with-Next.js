@@ -41,6 +41,13 @@ export default function Home() {
             <p>Learn about Vue.js in an interactive course with quizzes!</p>
           </a>
           </Link>
+
+          <Link legacyBehavior href="/learn/angular">
+          <a className={styles.card}>
+            <h2>Learn Angular.js &rarr;</h2>
+            <p>Learn about Angular.js in an interactive course with quizzes!</p>
+          </a>
+          </Link>
         </div>
       </main>
 
