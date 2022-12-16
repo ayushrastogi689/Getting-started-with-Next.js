@@ -1,4 +1,4 @@
-export default list[
+export default [
     {
         id:"next",
         about: "Next.js is a FE framework built on top of React, which gives the best developer experience"

@@ -21,21 +21,21 @@ export default function Home() {
         </h1>
 
         <div className={styles.grid}>
-          <Link href="/learn/learnNext">
+          <Link href="/learn/next">
           <div className={styles.card}>
             <h2>Learn Next.js &rarr;</h2>
             <p>Find in-depth information about Next.js features and API.</p>
           </div>
           </Link>
 
-          <Link legacyBehavior href="/learn/learnReact">
+          <Link legacyBehavior href="/learn/react">
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Learn React.js &rarr;</h2>
             <p>Learn about React.js in an interactive course with quizzes!</p>
           </a>
           </Link>
 
-          <a href="learn/learnVue"
+          <a href="learn/vue"
             className={styles.card}
           >
             <h2>Learn Vue.js &rarr;</h2>
