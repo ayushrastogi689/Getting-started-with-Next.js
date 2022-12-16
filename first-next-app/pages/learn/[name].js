@@ -19,7 +19,8 @@ function Learn() {
   return (
     <div>
         <h1>Inside Learn folder</h1>
-        <p>Learn {topics.id}</p>
+        <p>Learn {topic.id}</p>
+        <p>{topic.about}</p>
     </div>
   )
 }

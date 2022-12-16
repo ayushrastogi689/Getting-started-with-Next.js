@@ -29,19 +29,18 @@ export default function Home() {
           </Link>
 
           <Link legacyBehavior href="/learn/react">
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a  className={styles.card}>
             <h2>Learn React.js &rarr;</h2>
             <p>Learn about React.js in an interactive course with quizzes!</p>
           </a>
           </Link>
 
-          <a href="learn/vue"
-            className={styles.card}
-          >
+          <Link legacyBehavior href="/learn/react">
+          <a className={styles.card}>
             <h2>Learn Vue.js &rarr;</h2>
             <p>Learn about Vue.js in an interactive course with quizzes!</p>
           </a>
-
+          </Link>
         </div>
       </main>
 
