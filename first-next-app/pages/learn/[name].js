@@ -10,14 +10,16 @@
 import React from 'react'
 
 import {useRouter} from "next/router"
+import topics from '../api/topics';
 
 function Learn() {
     const router = useRouter();
     const {name} = router.query
+    const topic = topics.find(topic => topic.id == name)
   return (
     <div>
         <h1>Inside Learn folder</h1>
-        <p>Learn Angular</p>
+        <p>Learn {topic.id})</p>
     </div>
   )
 }
